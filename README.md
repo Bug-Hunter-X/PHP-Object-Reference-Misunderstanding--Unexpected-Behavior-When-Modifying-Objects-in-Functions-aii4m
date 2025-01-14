@@ -1,0 +1,3 @@
+# PHP Object Reference Bug
+
+This repository demonstrates a common and subtle error in PHP related to object references and their behavior within functions.  The `bug.php` file contains code exhibiting the problem, where an object is passed to a function.  The function creates a *new* object instead of modifying the original.  The `bugSolution.php` file illustrates the correct way to handle such scenarios using references effectively.
